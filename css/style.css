@@ -6,7 +6,8 @@
 
 h1,
 h2,
-h4 {
+h4,
+h6 {
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -120,6 +121,47 @@ ul {
 
 /*end home part*/
 
+/*start testimonials part*/
+.testimonials {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.testimonials h1 {
+    font-size: 64px;
+    color: #363958;
+    padding: 10px 5px;
+}
+
+.testimonials p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.test {
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+
+.test img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.test h6 {
+    font-size: 28px;
+    color: #363958;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+/*end testimonials part*/
+
 /*start experiences part*/
 .working-part {
     width: 100%;
@@ -219,6 +261,8 @@ ul {
 
 /*end contact part*/
 
+
+
 /*start footer part*/
 .footer-part h4 {
     color: #696871;
@@ -226,6 +270,7 @@ ul {
     font-weight: 400;
     text-align: center;
     padding: 20px;
+
 }
 
 .footer-part p {
